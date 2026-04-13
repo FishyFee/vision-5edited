@@ -23,6 +23,7 @@ import DetectionModeLifeSense from "./detection-modes/life-sense.mjs";
 import DetectionModeLightPerception from "./detection-modes/light-perception.mjs";
 import DetectionModeSeeInvisibility from "./detection-modes/see-invisibility.mjs";
 import DetectionModeThermalVision from "./detection-modes/thermal-vision.mjs";
+import DetectionModeThermalPits from "./detection-modes/thermal-pits.mjs";
 import DetectionModeTremorsense from "./detection-modes/tremorsense.mjs";
 import DetectionModeTruesight from "./detection-modes/truesight.mjs";
 import DetectionModeWitchSight from "./detection-modes/witch-sight.mjs";
@@ -163,6 +164,7 @@ Hooks.once("i18nInit", () => {
         DetectionModeLightPerception,
         DetectionModeSeeInvisibility,
         DetectionModeThermalVision,
+        DetectionModeThermalPits,
         DetectionModeTremorsense,
         DetectionModeTruesight,
     ]) {
