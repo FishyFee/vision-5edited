@@ -119,16 +119,9 @@ The automation detects relevant feats and effects that affect the creatures sens
   - Cannot detect anything on its own and requires another sense to see the target without the _ethereal_ and _invisible_ status.
   - Is not restricted by walls or blocked by darkness sources.
   - Configured automatically for actors with the `See Invisibility`[\*](#translations) effect and PC actors with the `The Third Eye: See Invisibility`[\*](#translations) _(Class Feature: Wizard, PHB'14 116)_ feat.
-- **Thermal Vision** _(Ancestry Feature: Ashka, Ember)_
+- **Thermal Vision** _(Edited)_
   - Detects beasts, celestials, dragons, feys, fiends, giants, humanoids, monstrosities, and other warm-blooded creatures. Also detects any creature that is _burning_.
   - Cannot detect actors that are _burrowing_ or _ethereal_.
-  - Disabled while _blinded_, _burrowing_, _defeated_ (_dead_), _incapacitated_, _petrified_, _sleeping_, or _unconscious_.
-  - Is restricted by sight-blocking walls and is blocked by darkness sources.
-  - Configured automatically for actors with the `Thermal Vision`[\*](#translations) _(Ancestry Feature: Ashka, Ember)_ feat.
-- **Thermal Pits** _(Homebrew)_
-  - Detects beasts, celestials, dragons, feys, fiends, giants, humanoids, monstrosities, oozes, and other warm-blooded creatures. Also detects any creature that is _burning_.
-  - Cannot detect actors that are _burrowing_ or _ethereal_.
-  - Detects hot objects/surfaces.
   - Disabled while _burrowing_, _defeated_ (_dead_), _incapacitated_, _petrified_, _sleeping_, or _unconscious_.
   - Is restricted by sight-blocking walls and is blocked by darkness sources.
   - Configured automatically for actors with the `Thermal Vision`[\*](#translations) _(Ancestry Feature: Ashka, Ember)_ feat.

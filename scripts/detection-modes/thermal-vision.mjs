@@ -31,8 +31,7 @@ export default class DetectionModeThermalVision extends DetectionMode {
             return false;
         }
 
-        if (source.document.hasStatusEffect(CONFIG.specialStatusEffects.BLINDED)
-            || source.document.hasStatusEffect(CONFIG.specialStatusEffects.BURROWING)
+        if (source.document.hasStatusEffect(CONFIG.specialStatusEffects.BURROWING)
             || source.document.hasStatusEffect(CONFIG.specialStatusEffects.DEFEATED)
             || source.document.hasStatusEffect(CONFIG.specialStatusEffects.ETHEREAL)
             || source.document.hasStatusEffect(CONFIG.specialStatusEffects.INCAPACITATED)
@@ -72,6 +71,7 @@ export default class DetectionModeThermalVision extends DetectionMode {
             || creatureType === "fiend"
             || creatureType === "giant"
             || creatureType === "humanoid"
-            || creatureType === "monstrosity";
+            || creatureType === "monstrosity"
+            || creatureType === "ooze";
     }
 }

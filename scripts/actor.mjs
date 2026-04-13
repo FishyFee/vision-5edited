@@ -287,9 +287,6 @@ const FEAT_REGISTRY = {
         thermalVision(item) {
             upgradeDetectionMode(this, "thermalVision", 60, "ft");
         },
-        thermalVision(item) {
-            upgradeDetectionMode(this, "thermalPits", 60, "ft");
-        },
         umbralSight(item) {
             this.statuses.add(CONFIG.specialStatusEffects.UMBRAL_SIGHT);
         },
@@ -322,9 +319,6 @@ const FEAT_REGISTRY = {
         },
         thermalVision(item) {
             upgradeDetectionMode(this, "thermalVision", 60, "ft");
-        },
-        thermalPits(item) {
-            upgradeDetectionMode(this, "thermalPits", 60, "ft");
         },
     },
 };
@@ -475,9 +469,6 @@ const DATABASE = {
         thermalVision: [
             "Thermal Vision",
         ],
-        thermalPits: [
-            "Thermal Pits",
-        ],
         umbralSight: [
             "Umbral Sight",
         ],
@@ -553,9 +544,6 @@ const DATABASE = {
         ],
         thermalVision: [
             "Wärmesicht",
-        ],
-        thermalPits: [
-            "Wärmepits",
         ],
         umbralSight: [
             "Düstersicht",
@@ -636,9 +624,6 @@ const DATABASE = {
         thermalVision: [
             "Vision thermique",
         ],
-        thermalPits: [
-            "Vision thermique",
-        ],
         umbralSight: [
             "Vision des ombres",
         ],
@@ -715,9 +700,6 @@ const DATABASE = {
             "Recluir",
         ],
         thermalVision: [
-            "Termowizja",
-        ],
-        thermalPits: [
             "Termowizja",
         ],
         umbralSight: [
@@ -797,9 +779,6 @@ const DATABASE = {
             "Refugiar",
         ],
         thermalVision: [
-            "Visão térmica",
-        ],
-        thermalPits: [
             "Visão térmica",
         ],
         umbralSight: [
