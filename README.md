@@ -125,6 +125,13 @@ The automation detects relevant feats and effects that affect the creatures sens
   - Disabled while _blinded_, _burrowing_, _defeated_ (_dead_), _incapacitated_, _petrified_, _sleeping_, or _unconscious_.
   - Is restricted by sight-blocking walls and is blocked by darkness sources.
   - Configured automatically for actors with the `Thermal Vision`[\*](#translations) _(Ancestry Feature: Ashka, Ember)_ feat.
+- **Thermal Pits** _(Homebrew)_
+  - Detects beasts, celestials, dragons, feys, fiends, giants, humanoids, monstrosities, oozes, and other warm-blooded creatures. Also detects any creature that is _burning_.
+  - Cannot detect actors that are _burrowing_ or _ethereal_.
+  - Detects hot objects/surfaces.
+  - Disabled while _burrowing_, _defeated_ (_dead_), _incapacitated_, _petrified_, _sleeping_, or _unconscious_.
+  - Is restricted by sight-blocking walls and is blocked by darkness sources.
+  - Configured automatically for actors with the `Thermal Vision`[\*](#translations) _(Ancestry Feature: Ashka, Ember)_ feat.
 - **Tremorsense** _(Sense, SRD 5.1 / MM'14 9 / PHB'24 377)_
   - Detects PC/NPC actors that are not objects (e.g. [Item Piles](https://foundryvtt.com/packages/item-piles)).
   - Cannot detect actors that are _burrowing_, _defeated (dead)_, _ethereal_ (from the the material plane), _flying_, _hovering_, or _petrified_.
